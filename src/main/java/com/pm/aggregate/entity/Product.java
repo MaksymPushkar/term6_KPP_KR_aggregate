@@ -16,6 +16,7 @@ public class Product {
     @GeneratedValue
     private Integer id;
     private String name;
+    private Integer number;
 
     public void setId(Integer id) {
         this.id = id;
